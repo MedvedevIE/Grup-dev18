@@ -1,0 +1,32 @@
+.block {
+  @apply flex flex-row justify-center px-16 pt-24 pb-24 mb-16 shadow-lg shadow-red-200;
+  @apply bg-gradient-to-tr from-yellow-200 via-red-300 to-blue-300;
+
+  & > div {
+    @apply flex flex-col;
+
+    & > p {
+      @apply text-lg font-semibold text-white text-center mt-6;
+    }
+  }
+}
+
+.hero-block {
+  @apply flex flex-row;
+
+  & > div:first-of-type {
+    @apply hidden md:block;
+  }
+
+  & > div:last-of-type {
+    @apply mx-auto md:mx-0 md:ml-8 flex flex-col justify-center text-white;
+
+    & p {
+      @apply text-4xl md:text-6xl font-black text-white text-center md:text-left;
+    }
+
+    & h1 {
+      @apply text-lg md:text-2xl font-normal text-center mt-2;
+    }
+  }
+}

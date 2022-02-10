@@ -1,0 +1,31 @@
+.features {
+  @apply grid md:grid-cols-3 gap-16 mx-16 md:mx-0;
+
+  & > div {
+    @apply flex flex-col mt-4 md:mt-12 md:mb-12;
+
+    & svg {
+      @apply mx-auto w-16 h-16 p-4 mb-4 rounded-lg bg-gradient-to-tr shadow-xl;
+    }
+
+    & h3 {
+      @apply font-black text-2xl text-center;
+    }
+
+    & p {
+      @apply mt-6 text-center;
+    }
+  }
+}
+
+.yellow {
+  @apply from-orange-400 to-yellow-200 shadow-orange-300 text-orange-50;
+}
+
+.red {
+  @apply from-red-400 to-red-300 shadow-red-300 text-red-50;
+}
+
+.blue {
+  @apply from-blue-400 to-indigo-200 shadow-blue-300 text-blue-50;
+}
