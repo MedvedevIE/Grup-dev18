@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <title>Регистрация</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+
+        
+
+        <div id="demo">
+
+            <form action="php/go.php" method="post" id="reg">
+                
+                <h1>Регистрация</h1>
+                <p>
+                    <label for="userndname" class="userndname" data-icon="undn">Фамилия</label>
+                    <input id="userndname" name="userndname" required="required" type="text" placeholder="Введите Фамилию"> 
+                </p>
+                <p>
+                    <label for="userfname" class="userfname" data-icon="ufn">Имя</label>
+                    <input id="userfname" name="userfname" required="required" type="text" placeholder="Введите Имя"> 
+                <p>
+                    <label for="username" class="username" data-icon="u">E-mail</label>
+                    <input id="username" name="username" required="required" type="text" placeholder="Введите ваш E-mail"> 
+                </p>
+                <p>
+                    <label for="userpass" class="userpass" data-icon="up">Пароль</label>
+                    <input id="userpass" name="userpass" required="required" type="password" placeholder="Введите Пароль"> 
+                </p>
+                <p>
+                    <label for="usertell" class="usertell" data-icon="utel">Телефон</label>
+                    <input id="usertell" name="usertell" required="required" type="text" placeholder="Введите номер телефона"> 
+                </p>
+                <p>
+                    <label for="userdb" class="userdb" data-icon="udb">Дата рождения</label>
+                    <input id="userdb" name="userdb" required="required" type="text" placeholder="Введите дату рождения"> 
+                </p>
+                <p>
+                    <button id="btn-reg">Зарегестрироваться</button>
+                </p>
+
+            </form>
+            
+            <form action="php/int.php" method="post" id="int">
+                <h1>Авторизация</h1>
+                <p>
+                    <label for="username" class="username" data-icon="u">E-mail</label>
+                    <input id="username" name="username" required="required" type="text" placeholder="Введите ваш E-mail"> 
+                </p>
+                <p>
+                    <label for="userpass" class="userpass" data-icon="up">Пароль</label>
+                    <input id="userpass" name="userpass" required="required" type="password" placeholder="Введите Пароль"> 
+                </p>
+                <p>
+                    <button id="btn-int">Авторизироваться</button>
+                </p>
+            </form>
+
+        </div>
+        
+    </body>
+
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/Css.css" />
+    <title>Регистрация</title>
+  </head>
+  <body>
+    <div class="reg">
+      <form action="php/php.php" method="post">
+        <h1>Регистрация</h1>
+        <input
+          type="text"
+          name="login"
+          id="login"
+          required="required"
+          placeholder="Придумайте логин"
+        /><br />
+        <input
+          type="password"
+          name="password"
+          id="password"
+          required="required"
+          placeholder="Придумайте пароль"
+        /><br />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          required="required"
+          placeholder="Введите вашу почту"
+        /><br />
+        <button>Зарегистрироваться</button>
+      </form>
+    </div>
+    <div class="log">
+      <form action="php/php2.php" method="post">
+        <h1>Авторитизация</h1>
+        <input
+          type="text"
+          name="login"
+          id="login"
+          required="required"
+          placeholder="Придумайте логин"
+        /><br />
+        <input
+          type="password"
+          name="password"
+          id="password"
+          required="required"
+          placeholder="Придумайте пароль"
+        /><br />
+        <button>Войти</button>
+      </form>
+    </div>
+  </body>
+</html>
