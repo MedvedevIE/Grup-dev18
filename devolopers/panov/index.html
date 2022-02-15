@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Регистрация</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+	<section class="forms">
+		<div class="registration">
+			<form action="php/go.php" method="post" class="reg">
+				<h1 class="title">Регистрация</h1>
+				<div class="wrap">
+					<input id="login" type="text" name="login" required placeholder="Введите ваш логин">
+				</div>
+				<div class="wrap">
+					<input id="password" type="password" name="password" required placeholder="Придумайте ваш пароль">
+				</div>
+				<div class="wrap">
+					<input id="email" type="email" name="email" required placeholder="Введите ваш E-mail">
+				</div>
+				<!-- <div class="check">
+					<input id="checkbox" type="checkbox" name="checkbox">
+					<label for="checkbox" data-icon="ch">Оставаться в системе</label>
+				</div> -->
+				<div class="btns">
+					<button class="btn">Зарегистрироваться</button>
+				</div>
+			</form>
+		</div>
+	
+		<div class="autorization">
+			<form action="php/int.php" method="post" class="auto">
+				<h1 class="title">Авторизация</h1>
+				<div class="wrap">
+					<input id="login" type="text" name="login" required placeholder="Введите ваш логин">
+				</div>
+				<div class="wrap">
+					<input id="password" type="password" name="password" required placeholder="Введите ваш пароль">
+				</div>
+				<div class="check">
+					<input id="checkbox" type="checkbox" name="checkbox">
+					<label for="checkbox" class="username" data-icon="ch">Оставаться в системе</label>
+				</div>
+				<div class="btns">
+					<button class="btn">Авторизация</button>
+				</div>
+			</form>
+		</div>
+	</section>
+
+</body>
+
+</html>
