@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Авторизация</title>
+    <link rel="stylesheet" href="uno.css" />
+  </head>
+  <body>
+    <div class="reg">
+      <form action="php/int.php" method="post">
+        <h1>Авторизация</h1>
+        <p>
+          <label for="username" class="uname" data-icon="u">Ваш логин</label>
+          <input
+            for="username"
+            name="username"
+            required="required"
+            type="text"
+            placeholder="Введите логин"
+          />
+        </p>
+        <p>
+          <label for="password" class="youpassword" data-icon="p"
+            >Ваш пароль</label
+          >
+          <input
+            for="password"
+            name="password"
+            required="required"
+            type="password"
+            placeholder="Введите пароль"
+          />
+        </p>
+        <p class="keeplogin">
+          <input
+            type="checkbox"
+            name="loginkeeping"
+            id="loginkeeping"
+            value="loginkeeping"
+          />
+          <label for="loginkeeping">Запомнить</label>
+        </p>
+        <p class="login button">
+          <input type="submit" value="Войти" />
+          <input type="submit" value="Забыли пароль" />
+        </p>
+      </form>
+    </div>
+  </body>
+</html>

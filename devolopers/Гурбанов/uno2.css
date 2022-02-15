@@ -1,0 +1,22 @@
+body {
+  background-color: cornflowerblue;
+}
+
+.reg {
+  text-align: center;
+  margin-top: 20%;
+  border: solid black 2px;
+  background-color: whitesmoke;
+  width: 50%;
+  margin-left: 25%;
+}
+
+h1 {
+  font-size: 30pt;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+p {
+  font-size: 15pt;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
