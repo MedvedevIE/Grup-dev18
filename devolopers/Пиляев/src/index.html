@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+</head>
+<body>
+   <div class="reg">
+       <form action="go.php" method="post">
+        <h1>Регистрация</h1>
+        <input type="text" name="login" id="login" required="required" placeholder="Логин"><br>
+        <input type="password" name="pass" id="pass" required="required" placeholder="Пароль"><br>
+        <input type="email" name="email" id="email" required="required" placeholder="E-mail"><br>
+        <button>Зарегистрироваться</button>
+       </form>
+       <form action="php/int.php" method="post">
+<h1>Авторизация</h1>
+<input type="text" name="login" id="login" required="required" placeholder="Логин"><br>
+<input type="password" name="pass" id="pass" required="required" placeholder="Пароль"><br>
+<button>Авторизация</button>
+
+
+       </form>
+   </div>
+</body>
+</html>
