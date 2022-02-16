@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/uno.css">
+    <title>Пользователь</title>
+</head>
+<body>
+    <H1>Создание заявки</H1>
+    <form actions="zak.php" enctype="multipart/form-data" method="post">
+        <input type="text" id="naime" name="naime" required="required" placeholder="Введиите наименование"><br>
+        <input type="text" id="opi" name="opi" required="required" placeholder="Введите описание заявки"><br>
+        <select name="raboti" id="raboti">
+            <option value="Штрабление">Штрабление</option>
+            <option value="Покраска">Покраска</option>
+            <option value="Покрытие поверхностей">Покрытие поверхностей</option>
+            <option value="Штукатурка">Штукатурка</option>
+            <option value="Поклейка">Поклейка</option>
+            <option value="Кабельменеджмент">Кабельменеджмент</option>
+        </select><br>
+        <input type="file" name="foto" id="foto" accept="image/png, image/jpg, image/jpeg, image/bmp" multiple><br>
+        <button>Отправить заявку</button>
+
+    </form>
+</body>
+</html>
